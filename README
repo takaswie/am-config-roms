@@ -1,0 +1,106 @@
+# Configuration ROM images for Audio and Music units on IEEE 1394 bus
+
+## BridgeCo. Enhanced Break Out Box (snd-bebob supports)
+
+ * Apogee Ensemble
+ * Avid Mbox 2 Pro
+ * Behringer UFX 1604
+ * Edirol FA-66
+ * Focusrite Saffire Pro 10 I/O
+ * Focusrite Saffire Pro 26 I/O
+ * Mackie Onyx FireWire
+ * M-Audio FireWire Audiophile
+ * M-Audio FireWire 1814
+ * M-Audio FireWire 410
+ * M-Audio Ozonic
+ * M-Audio Profire LightBridge
+ * M-Audio FireWire Solo
+ * Ponic FireFly 202
+ * PreSonus FirePod
+ * PreSonus Inspire1394
+ * Stanton Final Scratch
+ * Tascam IF-FW/DM
+ * Terratec Phase 24x
+ * Yamaha GO44
+ * Yamaha GO46
+ 
+## TC Applied Technologies Digital Interface Communication Engine (snd-dice supports)
+
+ * Alesis IO|14
+ * Alesis IO|26
+ * Alesis MultiMix12 FireWire
+ * Avid Mbox 3 Pro
+ * Focusrite Liquid Saffire 56
+ * Focusrite SaffirePro 26
+ * Focusrite SaffirePro 40
+ * Focusrite SaffirePro 40_1
+ * Mackie Blackbird
+ * Mackie Onyx-i (latter models)
+ * M-Audio Profire 610
+ * PreSonus FireStudio
+ * PreSonus FireStudio Project
+ * PreSonus FireStudio Mobile
+ * Solid State Logic Duende Classic
+ * Solid State Logic Duende Mini
+ * TC Electronic Desktop Konnekt 6
+ * TC Electronic Digital Konnekt x32
+ * TC Electronic Impact Twin
+ * TC Electronic Konnekt 24d
+ * TC Electronic Konnekt 8
+ * TC Electronic KonnektLive
+
+## Digidesign Digi00x family (snd-firewire-digi00x supports)
+
+ * Digi 002
+ * Digi 002 rack
+ * Digi 003 rack
+
+## RME FireFace series
+ * Fireface 400
+ * Fireface 800
+ * Fireface UCX
+
+## Echo Audio Fireworks board module (snd-fireworks supports)
+
+ * Echo Audio AudioFire 2
+ * Echo Audio AudioFire 4
+ * Echo Audio AudioFire pre8
+ * Gibson Robot Interface Pack
+ * Mackie Onyx 400F
+
+## Mark of the Unicorn (MOTU) FireWire series
+
+ * MOTU 828
+ * MOTU 828mkII
+ * MOTU 828mk3 FireWire
+ * MOTU 828mk3 Hybrid
+ * MOTU 896
+ * MOTU 8pre
+ * MOTU AudioExpress
+ * MOTU Traveler
+
+## Oxford Semiconductor OXFW970/971 (snd-oxfw supports)
+
+ * Apogee Duet
+ * Behringer F-Control Audio 202
+ * Griffin FireWave
+ * Mackie Onyx 1640i
+ * Mackie Onyx Sattelite
+ * Stanton SCS.1m
+ * Tascam FireOne
+
+## TASCAM FireWire series (snd-firewire-tascam supports)
+ * FW-1082
+ * FW-1804
+ * FW-1884
+
+## Apple device (snd-isight supports)
+ * iSight
+
+## Misc (unsupported by ALSA)
+
+ * Focusrite Liquid Mix 16
+ * Focusrite Liquid Mix 32
+ * Steinberg MR816x
+ * Yamaha i88x
+ * Yamaha 01x
