@@ -56,7 +56,7 @@
  * Digi 003
  * Digi 003 rack
 
-## RME FireFace series
+## RME Fireface series (snd-fireface supports)
  * Fireface 400
  * Fireface 800
  * Fireface UCX
@@ -70,7 +70,7 @@
  * Gibson Robot Interface Pack
  * Mackie Onyx 400F
 
-## Mark of the Unicorn (MOTU) FireWire series
+## Mark of the Unicorn (MOTU) FireWire series (snd-firewire-motu supports)
 
  * MOTU 828
  * MOTU 828mkII
