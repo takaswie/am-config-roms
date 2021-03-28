@@ -1,5 +1,20 @@
 # Configuration ROM images for Audio and Music units on IEEE 1394 bus
 
+## audio_and_music/
+
+ * Neither supported by userspace applications nor kernel drivers
+  * Focusrite Liquid Mix 16
+  * Focusrite Liquid Mix 32
+  * TC Electronic PowerCore FireWire
+  * TC Electronic PowerCore Compact
+  * Yamaha mLAN 2nd generation
+   * Yamaha i88x
+   * Yamaha 01x
+   * PreSonus FireStudio
+  * Yamaha mLAN 3rd generation
+   * Yamaha n8
+   * Steinberg MR816x
+
 ## video/
 
  * video functionality is supported by userspace applications
@@ -128,17 +143,3 @@
  * FW-1804
  * FW-1884
  * FE-8
-
-## Misc (unsupported by ALSA)
-
- * Focusrite Liquid Mix 16
- * Focusrite Liquid Mix 32
- * TC Electronic PowerCore FireWire
- * TC Electronic PowerCore Compact
- * Yamaha mLAN 2nd generation
-  * Yamaha i88x
-  * Yamaha 01x
-  * PreSonus FireStudio
- * Yamaha mLAN 3rd generation
-  * Yamaha n8
-  * Steinberg MR816x
