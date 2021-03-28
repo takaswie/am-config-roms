@@ -72,6 +72,19 @@
   * Gibson Robot Interface Pack
   * Mackie Onyx 400F
 
+## audio_and_music/oxfw/
+
+ * Oxford Semiconductor FW970/971 ASICs, supported by snd_oxfw
+  * Apogee Duet
+  * Behringer F-Control Audio 202
+  * Griffin FireWave
+  * Mackie Onyx 1640i
+  * Mackie Onyx Sattelite
+  * Mackie Tapco Link.FireWire 4x6
+  * Stanton SCS.1m
+  * Stanton SCS.1d
+  * Tascam FireOne
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -128,18 +141,6 @@
  * MOTU 4pre
  * MOTU Ultralite
  * MOTU Ultralite mk3 FireWire
-
-## Oxford Semiconductor OXFW970/971 (snd-oxfw supports)
-
- * Apogee Duet
- * Behringer F-Control Audio 202
- * Griffin FireWave
- * Mackie Onyx 1640i
- * Mackie Onyx Sattelite
- * Mackie Tapco Link.FireWire 4x6
- * Stanton SCS.1m
- * Stanton SCS.1d
- * Tascam FireOne
 
 ## TASCAM FireWire series (snd-firewire-tascam supports)
  * FW-1082
