@@ -93,6 +93,15 @@
   * Digi 003
   * Digi 003 rack
 
+## audio_and_music/tascam/
+
+ * TASCAM FireWire series, supported by snd_firewire_tascam
+  * FW-1082
+  * FW-1804
+  * FW-1884
+ * TASCAM FireWire series, supported by snd-firewire-ctl-services
+  * FE-8
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -142,9 +151,3 @@
  * MOTU 4pre
  * MOTU Ultralite
  * MOTU Ultralite mk3 FireWire
-
-## TASCAM FireWire series (snd-firewire-tascam supports)
- * FW-1082
- * FW-1804
- * FW-1884
- * FE-8
