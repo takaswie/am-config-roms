@@ -60,6 +60,18 @@
   * TC Electronic Konnekt 8
   * TC Electronic KonnektLive
 
+## audio_and_music/fireworks/
+
+ * Echo Audio Fireworks board module, supported by snd_fireworks
+  * Echo Audio AudioFire 2
+  * Echo Audio AudioFire 4
+  * Echo Audio Audiofire 8 (till Jul 2009)
+  * Echo Audio Audiofire 8 (since Jul 2009)
+  * Echo Audio AudioFire pre8
+  * Echo Audio AudioFire 12
+  * Gibson Robot Interface Pack
+  * Mackie Onyx 400F
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -102,17 +114,6 @@
  * Fireface 800
  * Fireface UCX
  * Fireface 802
-
-## Echo Audio Fireworks board module (snd-fireworks supports)
-
- * Echo Audio AudioFire 2
- * Echo Audio AudioFire 4
- * Echo Audio Audiofire 8 (till Jul 2009)
- * Echo Audio Audiofire 8 (since Jul 2009)
- * Echo Audio AudioFire pre8
- * Echo Audio AudioFire 12
- * Gibson Robot Interface Pack
- * Mackie Onyx 400F
 
 ## Mark of the Unicorn (MOTU) FireWire series (snd-firewire-motu supports)
 
