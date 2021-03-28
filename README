@@ -1,5 +1,10 @@
 # Configuration ROM images for Audio and Music units on IEEE 1394 bus
 
+## video/
+
+ * video functionality is supported by userspace applications
+  * Cool Stream iSweet
+
 ## BridgeCo. Enhanced Break Out Box (snd-bebob supports)
 
  * Apogee Ensemble
