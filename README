@@ -29,6 +29,37 @@
   * Yamaha GO44
   * Yamaha GO46
  
+## audio_and_music/dice/
+
+ * TC Applied Technologies Digital Interface Communication Engine (DICE), supported by snd_dice
+  * Alesis MasterControl
+  * Alesis IO|14
+  * Alesis IO|26
+  * Alesis MultiMix12 FireWire
+  * Avid Mbox 3 Pro
+  * Focusrite Liquid Saffire 56
+  * Focusrite Saffire LE
+  * Focusrite SaffirePro 26
+  * Focusrite SaffirePro 40 (with TCD2210)
+  * Focusrite SaffirePro 40 (with TCD3070)
+  * Lexicon I-ONIX Fw810s (I-O FW810s)
+  * Mackie Blackbird
+  * Mackie Onyx-i (latter models)
+  * M-Audio Profire 610
+  * PreSonus FireStudio
+  * PreSonus FireStudio Project
+  * PreSonus FireStudio Mobile
+  * PreSonus StudioLive 24.4.2
+  * PreSonus StudioLive 32.4.2 AI
+  * Solid State Logic Duende Classic
+  * Solid State Logic Duende Mini
+  * TC Electronic Desktop Konnekt 6
+  * TC Electronic Digital Konnekt x32
+  * TC Electronic Impact Twin
+  * TC Electronic Konnekt 24d
+  * TC Electronic Konnekt 8
+  * TC Electronic KonnektLive
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -58,36 +89,6 @@
  * Avid Adrenaline
  * Avid Mojo
   * Nothing supported at present
-
-## TC Applied Technologies Digital Interface Communication Engine (snd-dice supports)
-
- * Alesis MasterControl
- * Alesis IO|14
- * Alesis IO|26
- * Alesis MultiMix12 FireWire
- * Avid Mbox 3 Pro
- * Focusrite Liquid Saffire 56
- * Focusrite Saffire LE
- * Focusrite SaffirePro 26
- * Focusrite SaffirePro 40
- * Focusrite SaffirePro 40_1
- * Lexicon I-ONIX Fw810s (I-O FW810s)
- * Mackie Blackbird
- * Mackie Onyx-i (latter models)
- * M-Audio Profire 610
- * PreSonus FireStudio
- * PreSonus FireStudio Project
- * PreSonus FireStudio Mobile
- * PreSonus StudioLive 24.4.2
- * PreSonus StudioLive 32.4.2 AI
- * Solid State Logic Duende Classic
- * Solid State Logic Duende Mini
- * TC Electronic Desktop Konnekt 6
- * TC Electronic Digital Konnekt x32
- * TC Electronic Impact Twin
- * TC Electronic Konnekt 24d
- * TC Electronic Konnekt 8
- * TC Electronic KonnektLive
 
 ## Digidesign Digi00x family (snd-firewire-digi00x supports)
 
