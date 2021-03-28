@@ -117,6 +117,14 @@
   * MOTU Ultralite
   * MOTU Ultralite mk3 FireWire
 
+## audio_and_music/fireface/
+
+ * RME Fireface series, supported by snd_fireface
+  * Fireface 400
+  * Fireface 800
+  * Fireface UCX
+  * Fireface 802
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -146,9 +154,3 @@
  * Avid Adrenaline
  * Avid Mojo
   * Nothing supported at present
-
-## RME Fireface series (snd-fireface supports)
- * Fireface 400
- * Fireface 800
- * Fireface UCX
- * Fireface 802
