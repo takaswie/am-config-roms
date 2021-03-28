@@ -5,6 +5,16 @@
  * video functionality is supported by userspace applications
   * Cool Stream iSweet
 
+## composite/
+
+ * Apple iSight
+  * audio functionality is supported by snd_isight
+  * video functionality is supported by userspace applications
+ * MOTU V4HD
+ * Avid Adrenaline
+ * Avid Mojo
+  * Nothing supported at present
+
 ## BridgeCo. Enhanced Break Out Box (snd-bebob supports)
 
  * Apogee Ensemble
@@ -99,7 +109,6 @@
  * MOTU Traveler
  * MOTU 4pre
  * MOTU Ultralite
- * MOTU V4HD
  * MOTU Ultralite mk3 FireWire
 
 ## Oxford Semiconductor OXFW970/971 (snd-oxfw supports)
@@ -120,9 +129,6 @@
  * FW-1884
  * FE-8
 
-## Apple device (snd-isight supports)
- * Apple iSight
-
 ## Misc (unsupported by ALSA)
 
  * Focusrite Liquid Mix 16
@@ -136,5 +142,3 @@
  * Yamaha mLAN 3rd generation
   * Yamaha n8
   * Steinberg MR816x
- * Avid Adrenaline
- * Avid Mojo
