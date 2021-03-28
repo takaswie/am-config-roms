@@ -85,6 +85,14 @@
   * Stanton SCS.1d
   * Tascam FireOne
 
+## audio_and_music/digi00x/
+
+ * Digidesign Digi00x family, supported by snd_firewire_digi00x
+  * Digi 002
+  * Digi 002 rack
+  * Digi 003
+  * Digi 003 rack
+
 ## audio_and_music/
 
  * Neither supported by userspace applications nor kernel drivers
@@ -114,13 +122,6 @@
  * Avid Adrenaline
  * Avid Mojo
   * Nothing supported at present
-
-## Digidesign Digi00x family (snd-firewire-digi00x supports)
-
- * Digi 002
- * Digi 002 rack
- * Digi 003
- * Digi 003 rack
 
 ## RME Fireface series (snd-fireface supports)
  * Fireface 400
