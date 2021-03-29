@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+from sys import argv, exit
+from pathlib import Path
+from struct import pack, unpack
+
+from utils.ieee1212_config_rom_lexer import Ieee1212ConfigRomLexer
+from utils.ieee1212_root_directory_parser import Ieee1212RootDirectoryParser
+from utils.ieee1394_config_rom_parser import Ieee1394ConfigRomParser
+from utils.systemd_hwdb_entry_generator import SystemdHwdbEntryGenerator
+
+if len(argv) < 2:
+    print('hwdb-entry-generator PATH [VERBOSE]')
+    print('  PATH: path to file of image for configuration ROM')
+    print('  VERBOSE: any value for verbose output to print emulated sysfs attribute')
+    exit(1)
+
+path = Path(argv[1])
+verbose = len(argv) > 2
+
+if not path.exists():
+    print('{} not exists'.format(path.name))
+    exit(1)
+
+if path.is_dir():
+    print('{} is not path to file'.format(path.name))
+    exit(1)
+
+raw = []
+with path.open('rb') as f:
+    data = f.read()
+    if len(data) < 4:
+        print('{} has no content'.format(path.name))
+        exit(1)
+
+    # The parser is written for quadlet-aligned big-endian data.
+    endian_check = unpack('>I', data[4:8])[0]
+    if endian_check == 0x34393331:
+        raw = bytearray()
+        for pos in range(0, len(data), 4):
+            val = unpack('<I', data[pos:(pos + 4)])[0]
+            raw.extend(pack('>I', val))
+    else:
+        raw = data
+
+rom = Ieee1212ConfigRomLexer.detect_entries(raw)
+
+bus_info = Ieee1394ConfigRomParser.parse_bus_info(rom['bus-info'])
+
+parser = Ieee1212RootDirectoryParser()
+entries = parser.parse_root_directory('1394', rom['root-directory'])
+
+SystemdHwdbEntryGenerator.generate(path.name, bus_info, entries, verbose)

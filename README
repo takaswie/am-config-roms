@@ -1,6 +1,6 @@
 # Configuration ROM images for node in IEEE 1394 bus
 
-2021/03/28 Takashi Sakamoto
+2021/04/24 Takashi Sakamoto
 
 ## Description
 
@@ -8,6 +8,7 @@
    mainly includes audio and music units.
  * At present, the purpose of the repository is to generate hardware database in systemd project.
   * https://www.freedesktop.org/software/systemd/man/hwdb.html
+  * A Python 3 script (hwdb-entry-generator) is available to generate database entry.
  * The collected images are categorized according to its functionality. At present:
   * audio and music
    * node includes unit relevant to audio signal processing and musical messaging
@@ -16,7 +17,7 @@
   * video
    * node includes unit relevant to video signal processing
   * composite
-   * node includes several types of unit
+   * node includes several units
 
 ## audio_and_music/bebob/
 
