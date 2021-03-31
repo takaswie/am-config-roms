@@ -25,7 +25,7 @@
   * Behringer UFX 1604
   * Edirol FA-66
   * ESI Quatafire 610
-  * Focusrite Saffire 
+  * Focusrite Saffire
   * Focusrite Saffire LE
   * Focusrite Saffire Pro 10 I/O
   * Focusrite Saffire Pro 26 I/O
@@ -44,7 +44,7 @@
   * Terratec Phase 24x
   * Yamaha GO44
   * Yamaha GO46
- 
+
 ## audio_and_music/dice/
 
  * TC Applied Technologies Digital Interface Communication Engine (DICE), supported by snd_dice
@@ -62,6 +62,7 @@
   * Lexicon I-ONIX Fw810s (I-O FW810s)
   * Mackie Blackbird
   * Mackie Onyx-i (latter models)
+  * Mytek Stereo192-DSD DAC
   * M-Audio Profire 610
   * M-Audio Profire 2626
   * PreSonus FireStudio
