@@ -11,6 +11,8 @@
  * The collected images are categorized according to its functionality. At present:
   * audio and music
    * node includes unit relevant to audio signal processing and musical messaging
+  * video and audio
+   * node includes unit relevant to video signal processing and audio signal processing
   * video
    * node includes unit relevant to video signal processing
   * composite
@@ -160,6 +162,12 @@
    * Yamaha n8
    * Steinberg MR816x
 
+## video_and_audio
+
+ * Neither supported by userspace applications nor kernel drivers
+  * Avid Adrenaline
+  * Avid Mojo
+
 ## video/
 
  * video functionality is supported by userspace applications
@@ -171,6 +179,4 @@
   * audio functionality is supported by snd_isight
   * video functionality is supported by userspace applications
  * MOTU V4HD
- * Avid Adrenaline
- * Avid Mojo
   * Nothing supported at present
