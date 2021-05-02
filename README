@@ -172,7 +172,14 @@
 ## video/
 
  * video functionality is supported by userspace applications
+  * Basler A602f
   * Cool Stream iSweet
+  * Dage-MTI Excel XL16C
+  * Hamamatsu Photonics C8484-05G
+  * Point Grey Research Flea2 FL2-08S2C
+  * Point Grey Research Grasshopper GRAS-50S5C
+  * The Imaging Source Europe DBM 21BF04
+  * The Imaging Source Europe DMM 32BF04
 
 ## composite/
 
