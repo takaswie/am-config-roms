@@ -1,27 +1,41 @@
-# Configuration ROM images for node in IEEE 1394 bus
+==================================================
+Configuration ROM images for node in IEEE 1394 bus
+==================================================
 
-2021/04/24 Takashi Sakamoto
+2022/03/16 Takashi Sakamoto
 
-## Description
+Description
+===========
 
- * This repository is collection of configuration ROM images for node in IEEE 1394 bus, which
-   mainly includes audio and music units.
- * At present, the purpose of the repository is to generate hardware database in systemd project.
+* This repository is collection of configuration ROM images for node in IEEE 1394 bus, which mainly includes audio and music units.
+* At present, the purpose of the repository is to generate hardware database in systemd project.
+
   * https://www.freedesktop.org/software/systemd/man/hwdb.html
   * A Python 3 script (hwdb-entry-generator) is available to generate database entry.
- * The collected images are categorized according to its functionality. At present:
+
+* The collected images are categorized according to its functionality. At present:
+
   * audio and music
-   * node includes unit relevant to audio signal processing and musical messaging
+
+    * node includes unit relevant to audio signal processing and musical messaging
+
   * video and audio
-   * node includes unit relevant to video signal processing and audio signal processing
+
+    * node includes unit relevant to video signal processing and audio signal processing
+
   * video
-   * node includes unit relevant to video signal processing
+
+    * node includes unit relevant to video signal processing
+
   * composite
-   * node includes several units
 
-## audio_and_music/bebob/
+    * node includes several units
 
- * BridgeCo. Enhanced Break Out Box (BeBoB), supported by snd-bebob
+``audio_and_music/bebob``
+=========================
+
+* BridgeCo. Enhanced Break Out Box (BeBoB), supported by ``snd-bebob``
+
   * Apogee Ensemble
   * Avid Mbox 2 Pro
   * Behringer FCA 610
@@ -51,9 +65,11 @@
   * Yamaha GO44
   * Yamaha GO46
 
-## audio_and_music/dice/
+``audio_and_music/dice``
+========================
 
- * TC Applied Technologies Digital Interface Communication Engine (DICE), supported by snd_dice
+* TC Applied Technologies Digital Interface Communication Engine (DICE), supported by ``snd-dice``
+
   * Alesis MasterControl
   * Alesis IO|14
   * Alesis IO|26
@@ -88,9 +104,11 @@
   * TC Electronic Konnekt 8
   * TC Electronic KonnektLive
 
-## audio_and_music/fireworks/
+``audio_and_music/fireworks``
+=============================
 
- * Echo Audio Fireworks board module, supported by snd_fireworks
+* Echo Audio Fireworks board module, supported by ``snd-fireworks``
+
   * Echo Audio AudioFire 2
   * Echo Audio AudioFire 4
   * Echo Audio Audiofire 8 (till Jul 2009)
@@ -101,10 +119,12 @@
   * Mackie Onyx 400F
   * Mackie Onyx 1200F
 
-## audio_and_music/oxfw/
+``audio_and_music/oxfw``
+========================
 
- * Oxford Semiconductor FW970/971 ASICs, supported by snd_oxfw
-  * Apogee Duet
+* Oxford Semiconductor FW970/971 ASICs, supported by ``snd-oxfw``
+
+  * Apogee Duet FireWire
   * Behringer F-Control Audio 202
   * Griffin FireWave
   * Mackie Onyx 820i
@@ -115,26 +135,34 @@
   * Stanton SCS.1d
   * Tascam FireOne
 
-## audio_and_music/digi00x/
+``audio_and_music/digi00x``
+===========================
 
- * Digidesign Digi00x family, supported by snd_firewire_digi00x
+* Digidesign Digi00x family, supported by ``snd-firewire-digi00x``
+
   * Digi 002
   * Digi 002 rack
   * Digi 003
   * Digi 003 rack
 
-## audio_and_music/tascam/
+``audio_and_music/tascam``
+==========================
 
- * TASCAM FireWire series, supported by snd_firewire_tascam
+* TASCAM FireWire series, supported by ``snd-firewire-tascam``
+
   * FW-1082
   * FW-1804
   * FW-1884
- * TASCAM FireWire series, supported by snd-firewire-ctl-services
+
+* TASCAM FireWire series, supported by ``snd-firewire-ctl-services``
+
   * FE-8
 
-## audio_and_music/motu/
+``audio_and_music/motu``
+========================
 
- * Mark of the Unicorn (MOTU) FireWire series, supported by snd_firewire_motu
+* Mark of the Unicorn (MOTU) FireWire series, supported by ``snd-firewire-motu``
+
   * MOTU 828
   * MOTU 828mkII
   * MOTU 828mk3 FireWire
@@ -151,38 +179,49 @@
   * MOTU Ultralite mk3 Hybrid
   * MOTU Track 16
 
-## audio_and_music/fireface/
+``audio_and_music/fireface``
+============================
 
- * RME Fireface series, supported by snd_fireface
+* RME Fireface series, supported by ``snd-fireface``
+
   * Fireface 400
   * Fireface 800
   * Fireface UCX
   * Fireface 802
 
-## audio_and_music/
+``audio_and_music``
+===================
 
- * Neither supported by userspace applications nor kernel drivers
+* Neither supported by userspace applications nor kernel drivers
+
   * Focusrite Liquid Mix 16
   * Focusrite Liquid Mix 32
   * TC Electronic PowerCore FireWire
   * TC Electronic PowerCore Compact
   * Yamaha mLAN 2nd generation
-   * Yamaha i88x
-   * Yamaha 01x
-   * PreSonus FireStudio
+
+    * Yamaha i88x
+    * Yamaha 01x
+    * PreSonus FireStudio
+
   * Yamaha mLAN 3rd generation
-   * Yamaha n8
-   * Steinberg MR816x
 
-## video_and_audio
+    * Yamaha n8
+    * Steinberg MR816x
 
- * Neither supported by userspace applications nor kernel drivers
+``video_and_audio``
+===================
+
+* Neither supported by userspace applications nor kernel drivers
+
   * Avid Adrenaline
   * Avid Mojo
 
-## video/
+``video``
+=========
 
- * video functionality is supported by userspace applications
+* video functionality is supported by userspace applications
+
   * Basler A602f
   * Cool Stream iSweet
   * Dage-MTI Excel XL16C
@@ -192,10 +231,16 @@
   * The Imaging Source Europe DBM 21BF04
   * The Imaging Source Europe DMM 32BF04
 
-## composite/
+``composite``
+=============
 
- * Apple iSight
-  * audio functionality is supported by snd_isight
+* Apple iSight
+
+  * audio functionality is supported by ``snd-isight``
   * video functionality is supported by userspace applications
- * MOTU V4HD
+
+* MOTU V4HD
+
   * Nothing supported at present
+
+end
