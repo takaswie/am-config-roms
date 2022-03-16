@@ -79,6 +79,7 @@ Description
   * Focusrite Liquid Saffire 56
   * Focusrite Saffire LE
   * Focusrite SaffirePro 14
+  * Focusrite SaffirePro 24
   * Focusrite SaffirePro 24 DSP
   * Focusrite SaffirePro 26
   * Focusrite SaffirePro 40 (with TCD2210)
