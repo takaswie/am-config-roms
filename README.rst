@@ -244,4 +244,9 @@ Description
 
   * Nothing supported at present
 
+* AJA Io HD
+* AJA Io LD
+
+  * Nothing supported at present.
+
 end
