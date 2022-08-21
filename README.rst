@@ -104,6 +104,7 @@ Description
   * TC Electronic Konnekt 24d
   * TC Electronic Konnekt 8
   * TC Electronic KonnektLive
+  * TC Electronic Studio Konnekt 48
 
 ``audio_and_music/fireworks``
 =============================
