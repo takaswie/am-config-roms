@@ -87,7 +87,7 @@ class SystemdHwdbEntryGenerator:
             ('0x00b09d', '0x000102'),
         )
         generic_avc_pairs = (
-            ('0x00a02d', '0x010001'),
+            ('0x00a02d', '0x010001'),   # AV/C Device 1.0 compliant (TA Document 1999027).
         )
         vendor_avc_pairs = (
             ('0x00a02d', '0x014001'),
@@ -149,8 +149,13 @@ class SystemdHwdbEntryGenerator:
         units = []
         for key_type, key_value in root_directory:
             if key_type == 'VENDOR':
-                attrs['vendor'] = '0x{:06x}'.format(key_value)
-                vendor_flag = True
+                # Legacy layout of configuration ROM has two vendor entries in root directory for
+                # immediate and directory. The directory stores numeric model indentifier and leaf
+                # for model name. It's described in annexes of 'Configuration ROM for AV/C Devices
+                # 1.0 (December 12, 2000, 1394 Trading Association, TA Document 1999027)'
+                if isinstance(key_value, int):
+                    attrs['vendor'] = '0x{:06x}'.format(key_value)
+                    vendor_flag = True
             elif key_type == 'MODEL':
                 attrs['model'] = '0x{:06x}'.format(key_value)
                 model_flag = True
