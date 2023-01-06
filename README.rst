@@ -92,8 +92,9 @@ Description
   * M-Audio Profire 610
   * M-Audio Profire 2626
   * PreSonus FireStudio
-  * PreSonus FireStudio Project
   * PreSonus FireStudio Mobile
+  * PreSonus FireStudio Project
+  * PreSonus FireStudio Tube
   * PreSonus StudioLive 24.4.2
   * PreSonus StudioLive 32.4.2 AI
   * Solid State Logic Duende Classic
