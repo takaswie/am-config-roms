@@ -2,7 +2,7 @@
 Configuration ROM images for node in IEEE 1394 bus
 ==================================================
 
-2022/03/16 Takashi Sakamoto
+2023/02/06 Takashi Sakamoto
 
 Description
 ===========
@@ -172,6 +172,8 @@ Description
   * MOTU 828mk3 Hybrid
   * MOTU 896
   * MOTU 896 HD
+  * MOTU 896 mk3 FireWire
+  * MOTU 896 mk3 Hybrid
   * MOTU 8pre
   * MOTU AudioExpress
   * MOTU Traveler
