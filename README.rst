@@ -77,7 +77,6 @@ Description
   * Avid Mbox 3 Pro
   * FlexRadio FLEX-3000
   * Focusrite Liquid Saffire 56
-  * Focusrite Saffire LE
   * Focusrite SaffirePro 14
   * Focusrite SaffirePro 24
   * Focusrite SaffirePro 24 DSP
