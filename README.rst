@@ -94,6 +94,7 @@ Description
   * PreSonus FireStudio Mobile
   * PreSonus FireStudio Project
   * PreSonus FireStudio Tube
+  * PreSonus StudioLive 16.4.2
   * PreSonus StudioLive 24.4.2
   * PreSonus StudioLive 32.4.2 AI
   * Solid State Logic Duende Classic
