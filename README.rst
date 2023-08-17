@@ -106,6 +106,9 @@ Description
   * TC Electronic Konnekt 8
   * TC Electronic KonnektLive
   * TC Electronic Studio Konnekt 48
+  * Weiss MAN301
+  * Weiss DAC202
+  * Weiss INT202
 
 ``audio_and_music/fireworks``
 =============================
