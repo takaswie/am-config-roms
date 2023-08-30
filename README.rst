@@ -111,6 +111,7 @@ Description
   * Weiss INT202
   * Weiss AFI1
   * Weiss ADC2
+  * Weiss DAC2/Minerva
 
 ``audio_and_music/fireworks``
 =============================
