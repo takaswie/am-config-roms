@@ -109,6 +109,7 @@ Description
   * Weiss MAN301
   * Weiss DAC202
   * Weiss INT202
+  * Weiss AFI1
 
 ``audio_and_music/fireworks``
 =============================
