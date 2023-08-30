@@ -110,6 +110,7 @@ Description
   * Weiss DAC202
   * Weiss INT202
   * Weiss AFI1
+  * Weiss ADC2
 
 ``audio_and_music/fireworks``
 =============================
