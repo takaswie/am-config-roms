@@ -109,6 +109,7 @@ Description
   * Weiss MAN301
   * Weiss DAC202
   * Weiss INT202
+  * Weiss INT203
   * Weiss AFI1
   * Weiss ADC2
   * Weiss DAC2/Minerva
