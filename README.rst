@@ -113,6 +113,7 @@ Description
   * Weiss AFI1
   * Weiss ADC2
   * Weiss DAC2/Minerva
+  * Weiss Vesta
 
 ``audio_and_music/fireworks``
 =============================
