@@ -142,6 +142,7 @@ Description
   * Mackie Onyx 1640i
   * Mackie Onyx Sattelite
   * Mackie Tapco Link.FireWire 4x6
+  * Miglia Technology Harmony Audio (HA02)
   * Stanton SCS.1m
   * Stanton SCS.1d
   * Tascam FireOne
