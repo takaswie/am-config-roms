@@ -240,6 +240,7 @@ Description
   * Cool Stream iSweet
   * Dage-MTI Excel XL16C
   * Hamamatsu Photonics C8484-05G
+  * Panasonic AG-DV1DC
   * Point Grey Research Flea2 FL2-08S2C
   * Point Grey Research Grasshopper GRAS-50S5C
   * Sony DCR-TRV120
