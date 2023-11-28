@@ -242,6 +242,7 @@ Description
   * Hamamatsu Photonics C8484-05G
   * Point Grey Research Flea2 FL2-08S2C
   * Point Grey Research Grasshopper GRAS-50S5C
+  * Sony DCR-TRV120
   * Sony DCR-TRV310K (Digital8)
   * Sony DVMC-DA1
   * The Imaging Source Europe DBM 21BF04
