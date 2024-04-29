@@ -54,12 +54,12 @@ class SystemdHwdbEntryGenerator:
     @classmethod
     def __generate_unit_modalias(cls, node_attrs, unit_attrs):
         ven = 0
-        for attrs in (unit_attrs, node_attrs):
+        for attrs in (node_attrs, unit_attrs):
             if 'vendor' in attrs:
                 ven = int(attrs['vendor'], 16)
 
         mo = 0
-        for attrs in (unit_attrs, node_attrs):
+        for attrs in (node_attrs, unit_attrs):
             if 'model' in attrs:
                 mo = int(attrs['model'], 16)
 
