@@ -112,15 +112,15 @@ class SystemdHwdbEntryGenerator:
             elif unit_pair in pgrey_pairs:
                 data['IEEE1394_UNIT_FUNCTION_VIDEO'] = '1'
             elif unit_pair in generic_avc_pairs:
-                data['IEEE1394_UNIT_FUNCTION_MUSIC'] = '(1 if supported else remove)'
+                data['IEEE1394_UNIT_FUNCTION_MIDI'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_AUDIO'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_VIDEO'] = '(1 if supported else remove)'
             elif unit_pair in vendor_avc_pairs:
-                data['IEEE1394_UNIT_FUNCTION_MUSIC'] = '(1 if supported else remove)'
+                data['IEEE1394_UNIT_FUNCTION_MIDI'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_AUDIO'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_VIDEO'] = '(1 if supported else remove)'
             else:
-                data['IEEE1394_UNIT_FUNCTION_MUSIC'] = '(1 if supported else remove)'
+                data['IEEE1394_UNIT_FUNCTION_MIDI'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_AUDIO'] = '(1 if supported else remove)'
                 data['IEEE1394_UNIT_FUNCTION_VIDEO'] = '(1 if supported else remove)'
 
