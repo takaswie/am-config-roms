@@ -2,7 +2,7 @@
 Configuration ROM images for node in IEEE 1394 bus
 ==================================================
 
-2024/01/28 Takashi Sakamoto
+2024/04/29 Takashi Sakamoto
 
 Description
 ===========
@@ -99,6 +99,7 @@ Description
   * PreSonus StudioLive 32.4.2 AI
   * Solid State Logic Duende Classic
   * Solid State Logic Duende Mini
+  * Tascam IF-FW/DM mkII
   * TC Electronic Desktop Konnekt 6
   * TC Electronic Digital Konnekt x32
   * TC Electronic Impact Twin
