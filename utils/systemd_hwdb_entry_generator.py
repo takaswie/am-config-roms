@@ -24,7 +24,7 @@ class SystemdHwdbEntryGenerator:
                 print(node_key)
                 print(modalias)
                 for key, value in data.items():
-                    print('  {}={}'.format(key, value))
+                    print(' {}={}'.format(key, value))
         else:
             print('This node includes no unit.')
 
