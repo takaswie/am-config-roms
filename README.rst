@@ -2,7 +2,7 @@
 Configuration ROM images for node in IEEE 1394 bus
 ==================================================
 
-2024/04/29 Takashi Sakamoto
+2024/05/29 Takashi Sakamoto
 
 Description
 ===========
@@ -57,6 +57,7 @@ Description
   * M-Audio Profire LightBridge
   * M-Audio FireWire Solo
   * Ponic FireFly 202
+  * Ponic FireFly 808 Universal
   * PreSonus FirePod
   * PreSonus Inspire1394
   * Stanton Final Scratch
